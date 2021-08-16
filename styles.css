@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@402;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+.attribution{
+    position: fixed;
+    bottom: 20px;
+    right: 636px;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    align-items: center;
+    margin-top: 139px;
+}
+
+.box1{
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.box2{
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.box3{
+    display: inline-block;
+}
+
+.card{
+    background-color:hsl(244, 38%, 16%) ;
+    border-radius: 5px 0 0 5px;
+    width: 465px;
+    height: 300px;
+    padding: 21px 74px 124px 66px;
+    position: absolute;
+    left: 205px;
+}
+
+.img-box{
+    width: 520px;
+    height: 445px;
+    position: absolute;
+    background-image: linear-gradient(hsla(276.9, 56.8%, 53%, 0.62),hsla(276.9, 36.8%, 32%, 0.52)), 
+    url(image-header-desktop.jpg);
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 5px 5px 0;
+    right: 230px;
+}
+
+.heading-1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+
+}
+
+h3{
+    color:white;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: -25%;
+}
+
+h4{
+    color:hsla(0, 0%, 100%, 0.6);
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: lighter;
+}
+
+.para-1{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-weight: 402;
+    line-height: 2;
+}
+
+.purple-heading{
+    color: hsl(277, 64%, 61%);
+}
